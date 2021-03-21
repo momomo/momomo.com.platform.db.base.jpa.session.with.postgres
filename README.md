@@ -8,18 +8,17 @@
 #### Dependencies 
 * [`momomo.com.platform.Core`](https://github.com/momomo/momomo.com.platform.Core) 
 * [`momomo.com.platform.Lambda`](https://github.com/momomo/momomo.com.platform.Lambda)
+* [`momomo.com.platform.db.base`](https://github.com/momomo/momomo.com.platform.db.base)
+* [`momomo.com.platform.db.base.jpa`](https://github.com/momomo/momomo.com.platform.db.base.jpa)
 * [`momomo.com.platform.db.base.jpa.session`](https://github.com/momomo/momomo.com.platform.db.base.jpa.session)
+* ```
+   <artifactId>postgresql</artifactId>  ... <version>42.2.19</version>
+   ```
 
 #### Used by
-aaa
    * **Your application** such as this **example app** which right now mostly demonstrates and provide a fully working setup with examples on how we can use and configure the repository [`transactional.Hibernate`](https://github.com/momomo/momomo.com.platform.db.transactional.Hibernate)     
     [`momomo.com.example.app.Crypto`](https://github.com/momomo/momomo.com.example.app.Crypto)
     
-   * ```
-     <artifactId>postgresql</artifactId>
-     <version>42.2.19</version>
-     ```
-  
 ##### Maven dependencies available on maven central [search.maven.org](https://search.maven.org/search?q=com.momomo)
 
 ##### Dependency   
