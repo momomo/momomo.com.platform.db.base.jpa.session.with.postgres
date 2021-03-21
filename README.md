@@ -11,6 +11,7 @@
 * [`momomo.com.platform.db.base.jpa.session`](https://github.com/momomo/momomo.com.platform.db.base.jpa.session)
 
 #### Used by
+aaa
    * **Your application** such as this **example app** which right now mostly demonstrates and provide a fully working setup with examples on how we can use and configure the repository [`transactional.Hibernate`](https://github.com/momomo/momomo.com.platform.db.transactional.Hibernate)     
     [`momomo.com.example.app.Crypto`](https://github.com/momomo/momomo.com.example.app.Crypto)
     
