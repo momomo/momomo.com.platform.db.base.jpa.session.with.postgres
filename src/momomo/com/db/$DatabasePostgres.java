@@ -1,8 +1,6 @@
 package momomo.com.db;
 
-import momomo.com.Globals;
 import momomo.com.annotations.informative.Private;
-import momomo.com.annotations.informative.Protected;
 import org.hibernate.dialect.Dialect;
 import org.hibernate.dialect.PostgreSQL10Dialect;
 
@@ -41,28 +39,5 @@ public interface $DatabasePostgres extends $Database, $DatabaseSystemSequences {
     @Override
     @Private default String sqlDropDatabase() {
         return "SELECT pg_terminate_backend(pg_stat_activity.pid) FROM pg_stat_activity WHERE datname = '"+ name() + "' AND pid <> pg_backend_pid();" + $Database.super.sqlDropDatabase();
-    }
-    
-    @Override @Private default String protocol() {
-        return Globals.Configurable.DATABASE_SERVER_PROTOCOL.get();
-    }
-    
-    @Override
-    @Protected default String port() {
-        return Globals.Configurable.DATABASE_SERVER_PORT.get();
-    }
-    
-    @Override
-    @Protected default String host() {
-        return Globals.Configurable.DATABASE_SERVER_HOST.get();
-    }
-    
-    @Override
-    @Protected default String username() {
-        return Globals.Configurable.DATABASE_SERVER_PASSWORD.get();
-    }
-    
-    @Protected default String password() {
-        return Globals.Configurable.DATABASE_SERVER_PASSWORD.get();
     }
 }
