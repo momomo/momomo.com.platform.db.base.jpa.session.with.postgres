@@ -1,8 +1,6 @@
 <!---
 -->
 
-## momomo.com.platform.db.base.jpa.session.with.postgres
-
 ###### Provides the postgres related implementations towards our database related repositories 
 
 ##### Dependencies 
