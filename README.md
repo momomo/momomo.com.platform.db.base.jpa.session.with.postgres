@@ -11,7 +11,7 @@
 * **[`momomo.com.platform.db.base.jpa.session`](https://github.com/momomo/momomo.com.platform.db.base.jpa.session)**
 * `<artifactId>postgresql</artifactId>` `<version>42.2.19</version>`
 
-#### Used by
+##### Used by
    * *Your own application*  
      &nbsp;     
    We provided an *example app* [`momomo.com.example.app.Crypto`](https://github.com/momomo/momomo.com.example.app.Crypto)   
