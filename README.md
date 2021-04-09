@@ -14,7 +14,7 @@
 ##### Used by
    * *Your own application*  
      &nbsp;     
-   We provided an *example app* [`momomo.com.example.app.Crypto`](https://github.com/momomo/momomo.com.example.app.Crypto)   
+   We provided an *example app* [`momomo.com.example.app.Crypto.based.on.hibernate.libraries`](https://github.com/momomo/momomo.com.example.app.Crypto.based.on.hibernate.libraries)   
    that right now mostly demonstrates and provide a **fully working setup** with a working `static void main` as well as containing a bunch of examples on  
     how we can use and configure the `sessionFactory` easily, **setup** your database, and **jpa entities** as well as bunch of examples on how to use the `$Transactional` **API**:    
        * **[`momomo.com.platform.db.transactional`](https://github.com/momomo/momomo.com.platform.db.transactional)**
