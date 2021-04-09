@@ -12,14 +12,16 @@
 * `<artifactId>postgresql</artifactId>` `<version>42.2.19</version>`
 
 ##### Used by
-   * *Your own application*  
-     &nbsp;     
-   We provided an *example app* [`momomo.com.example.app.Crypto.based.on.hibernate.libraries`](https://github.com/momomo/momomo.com.example.app.Crypto.based.on.hibernate.libraries)   
-   that right now mostly demonstrates and provide a **fully working setup** with a working `static void main` as well as containing a bunch of examples on  
-    how we can use and configure the `sessionFactory` easily, **setup** your database, and **jpa entities** as well as bunch of examples on how to use the `$Transactional` **API**:    
-       * **[`momomo.com.platform.db.transactional`](https://github.com/momomo/momomo.com.platform.db.transactional)**
-       * **[`momomo.com.platform.db.transactional.Hibernate`](https://github.com/momomo/momomo.com.platform.db.transactional.Hiberante)**     
-       * **[`momomo.com.platform.db.transactional.Spring`](https://github.com/momomo/momomo.com.platform.db.transactional.Spring)**
+   * ***Your own application*** such as these two sample applications  
+        &nbsp;  
+        * **[`momomo.com.example.app.Crypto.based.on.hibernate.libraries`](https://github.com/momomo/momomo.com.example.app.Crypto.based.on.hibernate.libraries)**
+        * **[`momomo.com.example.app.Crypto.based.on.spring.libraries`](https://github.com/momomo/momomo.com.example.app.Crypto.based.on.spring.libraries)**  
+        &nbsp;           
+        These demonstrate and provide **fully working setups** with a working `static void main` as well as contains a bunch of examples on how we can use and configure the `sessionFactory` easily, **setup** your database, and **jpa entities** as well as examples on how to use the `$Transactional` **API** and our `database` libraries.  
+        &nbsp;
+   * **[`momomo.com.platform.db.transactional`](https://github.com/momomo/momomo.com.platform.db.transactional)**
+   * **[`momomo.com.platform.db.transactional.Hibernate`](https://github.com/momomo/momomo.com.platform.db.transactional.Hiberante)**     
+   * **[`momomo.com.platform.db.transactional.Spring`](https://github.com/momomo/momomo.com.platform.db.transactional.Spring)**
     
 ##### Maven dependencies available on maven central [search.maven.org](https://search.maven.org/search?q=com.momomo)
 
