@@ -9,7 +9,8 @@
 * **[`momomo.com.platform.db.base`](https://github.com/momomo/momomo.com.platform.db.base)**
 * **[`momomo.com.platform.db.base.jpa`](https://github.com/momomo/momomo.com.platform.db.base.jpa)**
 * **[`momomo.com.platform.db.base.jpa.session`](https://github.com/momomo/momomo.com.platform.db.base.jpa.session)**
-* ```<artifactId>postgresql</artifactId>
+* ```xml
+     <artifactId>postgresql</artifactId>
      <version>42.2.19</version>
   ```
 
