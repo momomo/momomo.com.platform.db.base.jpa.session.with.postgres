@@ -9,7 +9,9 @@
 * **[`momomo.com.platform.db.base`](https://github.com/momomo/momomo.com.platform.db.base)**
 * **[`momomo.com.platform.db.base.jpa`](https://github.com/momomo/momomo.com.platform.db.base.jpa)**
 * **[`momomo.com.platform.db.base.jpa.session`](https://github.com/momomo/momomo.com.platform.db.base.jpa.session)**
-* `<artifactId>postgresql</artifactId>` `<version>42.2.19</version>`
+* ```<artifactId>postgresql</artifactId>
+     <version>42.2.19</version>
+  ```
 
 ##### Used by
    * ***Your own application*** such as these two sample applications  
@@ -61,7 +63,6 @@
 Imports the `postgresql` libraries in the [pom.xml](pom.xml) as well as provides basic implementation in [$DatabasePostgres.java](src/momomo/com/db/$DatabasePostgres.java) for the interface [$Database.java](https://github.com/momomo/momomo.com.platform.db.base/tree/master/src/momomo/com/db/$Database.java) and optional interface [$DatabaseSystemSequences.java](https://github.com/momomo/momomo.com.platform.db.base/tree/master/src/momomo/com/db/$DatabaseSystemSequences.java). 
 
 Basically ready to go.
-
 
 ### Contribute
 Send an email to `opensource{at}momomo.com` if you would like to contribute in any way, make changes or otherwise have thoughts and/or ideas on things to improve.
